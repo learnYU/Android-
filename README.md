@@ -15,7 +15,8 @@ GitHub：https://github.com/PhilJay/MPAndroidChart
  </com.bonc.acl.chartcomponent.charts.LineChart>
 
 java 中：
-        LineChart lineChart = (LineChart) findViewById(R.id.line);
+        
+	LineChart lineChart = (LineChart) findViewById(R.id.line);
         // 设置描述是否显示
         lineChart.getDescription().setEnabled(true);
         // 设置描述内容和属性
